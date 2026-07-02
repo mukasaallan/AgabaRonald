@@ -17,6 +17,8 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 try:
     from django.core.wsgi import get_wsgi_application
     application = get_wsgi_application()
+    app = application
+    handler = application
 except Exception:
     # Print full traceback to stderr so Vercel captures it in function logs
     traceback.print_exc()
