@@ -1,0 +1,14 @@
+# Exclude local development and unrelated folders from Vercel deployment
+ronard-tech/
+myvenv/
+.mypy_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+mysite/db.sqlite3
+mysite/README.md
+*.log
+node_modules/
+.DS_Store

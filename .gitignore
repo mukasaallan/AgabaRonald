@@ -1,0 +1,14 @@
+# Vercel / Django deploy
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+
+# Local development directories
+ronard-tech/
+myvenv/
+
+# OS files
+.DS_Store
+Thumbs.db
